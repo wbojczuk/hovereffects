@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <style>
+        body{
+            background: linear-gradient(to right, #616161, #9bc5c3);
+        }
+        .site-title{
+            font-family: monospace;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 5vw;
+            color: rgb(113, 208, 211);
+            text-shadow: 0px 4px 6px rgba(0,0,0,0.8);
+        }
+        footer{
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            font-size: 12px;
+            width: 100%;
+            left:0;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="site-title load-fade-up">Hover Effect Demos</h1>
+
+   <a href="https://wbojczuk.github.io/animationstorm" data-img="./images/img2.jpg" data-title="Animation Storm" data-subtitle="Click for demo" target="_blank" class="linkcrosshover load-fade-right"></a>
+
+   <a href="https://github.com/wbojczuk" data-img="./images/bgimg.jpg" data-title="GitHub Repos" data-subtitle="Click to go" target="_blank" class="linkcrosshover load-fade-down"></a>
+
+<a href="https://williambojczuk.dev" target="_blank" class="linkcrosshover load-fade-left" data-title="My Portfolio" data-img="./images/portfolio.jpg" data-subtitle="Click to see"></a>
+
+<footer>All Code By William Bojczuk, 2022</footer>
+</body>
+</html>
